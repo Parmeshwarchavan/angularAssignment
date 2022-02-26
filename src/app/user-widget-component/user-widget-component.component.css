@@ -29,11 +29,17 @@ img{
     font-weight:lighter;
     color:rgb(43, 38, 38);
 }
-.status1{
+.success{
     height: 1vh;
     width: 0.5vw;
     border-radius: 60%;
     background-color:green;
+}
+.fail{
+    height: 1vh;
+    width: 0.5vw;
+    border-radius: 60%;
+    background-color:red;
 }
 .s{
     margin-left: 1.5vw;

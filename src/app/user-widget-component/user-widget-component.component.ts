@@ -21,6 +21,14 @@ export class UserWidgetComponentComponent implements OnInit {
     }
   }
   
+  public successClass="success";
+  public failedClass="fail";
+  
+  public messege={
+    "success":this.status,
+    "fail":!this.status
+  }
+  
   constructor() { }
 
   ngOnInit(): void {
